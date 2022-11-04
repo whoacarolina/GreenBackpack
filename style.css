@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+#myContainer{
+  z-index: -2; 
+  position: absolute;
+}
+
+#talkingdiv{
+  z-index: 1; 
+  position: absolute; 
+  font-size: 100px;
+  color: rgb(47, 165, 255);
+}
+
+#div2{
+  z-index: 5;
+  position: absolute;
+  margin: 50px;
+  padding: 50px;
+  background-color: blueviolet;
+  /* font-face{
+    font-family: 'Lithops'; src: url('Lithops-Regular.otf');
+  } */
+}
